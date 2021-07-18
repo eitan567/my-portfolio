@@ -2,16 +2,16 @@ import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
-    <main className="text-gray-300 bg-white body-font">
+    <main id="main" className="text-gray-300 bg-white body-font">
       <Navbar />
       <About />
-      <Projects />
+      <Resume />
       <Skills />
       <Testimonials />
       <Contact />
